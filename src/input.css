@@ -27,3 +27,30 @@ body {
 .hamburger-active>span:nth-child(3) {
     @apply -rotate-45 bg-red-400;
 }
+
+.logo-animation {
+    font-family: 'Fugaz One', cursive;
+}
+
+.logo-animation:hover {
+    /* background-color: #85FFBD; */
+    cursor: pointer;
+    background-size: 100px;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: logo-animation 5s infinite alternate;
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.5));
+}
+
+@keyframes logo-animation {
+    0% {
+
+        background-position: left;
+    }
+
+    100% {
+
+        background-position: right;
+    }
+}
