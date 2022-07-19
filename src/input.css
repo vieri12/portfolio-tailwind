@@ -39,7 +39,7 @@ body {
     background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
     -webkit-background-clip: text;
     color: transparent;
-    animation: logo-animation 5s infinite alternate;
+    animation: logo-animation 5s infinite;
     filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.5));
 }
 
