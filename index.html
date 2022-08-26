@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html class="" id="htmltype">
 <html lang="en">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,35 +15,36 @@
 
 <body>
     <!--header setion start-->
-    <header class=" bg-transparent absolute top-0 left-0 w-full flex items-center z-10 px-4 lg:pl-20">
+    <header
+        class=" bg-transparent absolute top-0 left-0 w-full flex items-center z-10 px-4 lg:pl-20 dark:bg-slate-400 ">
         <div class="container">
-            <div class="flex items-center justify-between relative">
+            <div class="flex items-center md:justify-between relative">
                 <div class="px-4">
                     <a href="#home"
-                        class=" logo-animation  font-bold lg:text-4xl uppercase text-primary block py-6">Vieri
+                        class=" logo-animation  font-bold text-xl lg:text-4xl uppercase text-primary block py-6">Vieri
                         Reynaldi</a>
                 </div>
-                <div class="flex items-center px-4">
-                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4  lg:hidden">
+                <div class="flex items-center md:justify-between px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4  md:hidden">
                         <span class="hamburger-line origin-top-left"></span>
                         <span class="hamburger-line"></span>
                         <span class="hamburger-line origin-bottom-left"></span>
                     </button>
                     <nav id="nav-menu"
-                        class="hidden absolute py-5 bg-white sm:bg-opacity-70 shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:rounded-none lg:shadow-none ">
-                        <ul class="block lg:flex">
+                        class="hidden absolute py-5 bg-white dark:bg-slate-400 sm:bg-opacity-70 shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full md:block md:static md:bg-transparent md:max-w-full md:rounded-none md:shadow-none ">
+                        <ul class="block md:flex">
                             <li class="group"><a href="#home"
-                                    class="text-base text-dark py-2 flex mx-8 lg:text-xl tracking-tight lg:hover:tracking-wide logo-animation">Home</a>
+                                    class="text-xl dark:text-primary text-dark py-2 flex mx-8 lg:text-2xl tracking-tight lg:hover:tracking-wide logo-animation">Home</a>
                             </li>
                             <li class="group"><a href="#about"
-                                    class="text-base text-dark py-2 flex mx-8 lg:text-xl tracking-tight lg:hover:tracking-wide logo-animation">About
+                                    class="text-xl dark:text-primary text-dark py-2 flex mx-8 lg:text-2xl tracking-tight lg:hover:tracking-wide logo-animation">About
                                     Me</a>
                             </li>
                             <li class="group"><a href="#portfolio"
-                                    class="text-base text-dark py-2 flex mx-8 lg:text-xl tracking-tight lg:hover:tracking-wide logo-animation">Portfolio</a>
+                                    class="text-xl dark:text-primary text-dark py-2 flex mx-8 lg:text-2xl tracking-tight lg:hover:tracking-wide logo-animation">Portfolio</a>
                             </li>
                             <li class="group"><a href="#skills"
-                                    class="text-base text-dark py-2 flex mx-8 lg:text-xl tracking-tight lg:hover:tracking-wide logo-animation">Skills</a>
+                                    class="text-xl dark:text-primary text-dark py-2 flex mx-8 lg:text-2xl tracking-tight lg:hover:tracking-wide logo-animation">Skills</a>
                             </li>
                         </ul>
                     </nav>
@@ -53,37 +55,40 @@
     <!--header section end-->
 
     <!-- isi section sart-->
-    <section id="home" class="pt-36 bg-slate-200">
+    <section id="home" class="pt-36 bg-slate-200 dark:bg-slate-400">
         <div class="flex flex-wrap lg:pl-20 overflow-hidden">
-            <div class="w-full self-center px-10 lg:w-1/2 lg:pl-50 lg:pb-5 lg:px-1">
+            <div class="w-full self-center px-10 md:w-1/2 lg:pl-50 lg:pb-5 lg:px-1">
                 <h1 class=" text-xl font-semibold text text-primary lg:text-3xl">HI,
                     I am</h1>
-                <span class=" block font-bold text-dark text-4xl lg:text-5xl"> Vieri Reynaldi.
+                <span class=" block font-bold text-dark text-4xl lg:text-5xl dark:text-slate-800"> Vieri Reynaldi.
                     </h1></span>
-                <h2 class="font-medium mt-10 leading relaxed lg:text-xl">Computer Science student at Kalbis Institute
+                <h2 class="font-medium mt-10 leading relaxed lg:text-xl dark:text-slate-700">Computer Science student at
+                    Kalbis Institute
                     majoring in
                     mobile computing.</h2>
-                <h2 class="font-medium leading leading-relaxed mb-8 lg:text-xl">skilled in several programming
+                <h2 class="font-medium leading leading-relaxed mb-8 lg:text-xl dark:text-slate-700">skilled in several
+                    programming
                     languages such as
                     HTML,
                     CSS, JavaScript, and Python. </h2>
                 <a href="#about"
-                    class=" text-base text-semibold text-white bg-primary py-3 px-6 rounded-full border-4 lg:text-2xl hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out tracking-tight lg:hover:tracking-wide">contact
+                    class=" text-base text-semibold text-white bg-primary dark:bg-dark py-3 px-6 rounded-full border-4 lg:text-2xl hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out tracking-tight lg:hover:tracking-wide">contact
                     me
                 </a>
             </div>
-            <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="w-full self-end px-4 md:w-1/2">
                 <div class="relative mt-2">
-                    <span class="absolute -bottom-20 z-1 left-1/2 -translate-x-1/2 lg:scale-125 bg-transparent">
-                        <svg width="600" height="600" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                            <path fill="#86efac"
+                    <span class="absolute -bottom-20 z-10 left-1/2 -translate-x-1/2 lg:scale-125 bg-transparent">
+                        <svg width="600" height="600" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"
+                            class="fill-primary dark:fill-dark">
+                            <path
                                 d="M40.1,-68.2C50.9,-63.2,57.9,-50.3,61.9,-37.7C65.8,-25,66.7,-12.5,66.4,-0.1C66.2,12.2,64.8,24.4,61.4,38C58,51.5,52.5,66.5,41.9,69.3C31.3,72.2,15.7,63,0,63.1C-15.7,63.2,-31.5,72.5,-41,69C-50.6,65.6,-54,49.4,-57.4,35.7C-60.8,22.1,-64.1,11.1,-61.8,1.3C-59.5,-8.4,-51.6,-16.8,-47.9,-29.8C-44.1,-42.8,-44.6,-60.4,-37.3,-67.5C-30,-74.5,-15,-71.1,-0.2,-70.8C14.6,-70.5,29.3,-73.2,40.1,-68.2Z"
                                 transform="translate(100 100) scale(1.0)" />
                         </svg>
 
                     </span>
                     <img src="dist/img/vieri reynaldi.png"
-                        class="rounded-bl-full rounded-br-full hover:drop-shadow-2xl transition duration-100 ease-in-out max-w-full mx-auto relative "
+                        class="rounded-bl-full rounded-br-full z-20 dark:brightness-[90%] hover:drop-shadow-2xl transition duration-100 ease-in-out max-w-full mx-auto relative "
                         alt="vieri reynaldi">
                 </div>
 
@@ -94,29 +99,38 @@
     <!--isi swction end-->
 
     <!--about section start-->
-    <section id="about" class="px-4 pt-36 pb-32 bg-slate-300">
+    <section id="about" class="px-4 pt-36 pb-32 bg-slate-300 dark:bg-slate-500">
         <div class="container">
             <div class="flex flex-wrap  lg:pl-20 ">
                 <div id="data1"
-                    class="w-full px-4 mb-10 lg:w-1/2 lg:bg-slate-200 lg:rounded-md lg:shadow-lg lg:border lg:border-green-300  lg:hover:bg-gradient-to-b lg:hover:from-slate-100 lg:hover:to-slate-300 lg:hover:scale-250 lg:hover:duration-500 lg:hover:px-10 lg:hover:pt-10  lg:hover:mb-10">
+                    class="w-full px-4 mb-10 lg:w-1/2 lg:bg-slate-200 dark:lg:bg-slate-400 dark:rounded-xl lg:rounded-md lg:shadow-lg lg:border lg:border-green-300  lg:hover:bg-gradient-to-b lg:hover:from-slate-100 lg:hover:to-slate-300 dark:lg:hover:from-slate-400 dark:lg:hover:to-slate-500 lg:hover:scale-250 lg:hover:duration-500 lg:hover:px-10 lg:hover:pt-10  lg:hover:mb-10">
                     <h4 class="font-bold text-primary uppercase text-lg mb-3 pt-3">About Me</h4>
-                    <h2 class="font-bold text-dark text-3xl mb-5 max-h-md"> my name is Vieri Reynaldi</h2>
-                    <p class="font-medium text-base text text-slate-500 max-w-xl mb-10">i'm a computer science student
+                    <h2 class="font-bold text-dark text-3xl mb-5 max-h-md dark:text-slate-800"> my name is Vieri
+                        Reynaldi</h2>
+                    <p
+                        class="font-medium text-base text text-slate-500 max-w-xl mb-10  dark:text-slate-300 dark:lg:text-slate-700">
+                        i'm a computer science student
                         from
                         kalbis,
                         majoring mobile computing. learn in several
                         programming languages such as HTML, CSS, JavaScript, and Python.</p>
                 </div>
-                <div id="data2" class=" w-full px-4 mt-5 lg:w-1/2 lg:bg-slate-200 lg:rounded-md lg:border lg:border-green-400 lg:hover:bg-transparent lg:hover:skew-y-1 
+                <div id="data2" class=" w-full px-4 mt-5 lg:w-1/2 lg:bg-slate-200 dark:lg:bg-slate-400 lg:rounded-md lg:border lg:border-green-400 lg:hover:bg-transparent lg:hover:skew-y-3 
                     lg:hover:scale-250 ">
-                    <h3 class="font-bold text-dark text-2xl mb-6 lg:pt-10">Biodata & Sosial media</h3>
+                    <h3 class="font-bold text-dark text-2xl mb-6 lg:pt-10 dark:text-slate-800">Biodata & Sosial media
+                    </h3>
                     <ul class="">
-                        <li class="font-medium text-base text-slate-500 ">Name : Vieri Reynaldi Bahtiar</li>
-                        <li class="font-medium text-base text-slate-500 ">Address : JL. Bekasi Timur VI, cipinang
+                        <li class="font-medium text-base text-slate-500 dark:text-slate-300">Name : Vieri Reynaldi
+                            Bahtiar</li>
+                        <li class="font-medium text-base text-slate-500 dark:text-slate-300">Address : JL. Bekasi Timur
+                            VI, cipinang
                             besar utara</li>
-                        <li class="font-medium text-base text-slate-500 ">Date of birth : 19 maret 2000</li>
-                        <li class="font-medium text-base text-slate-500 ">email : vieri15bachtiar@gmail.com</li>
-                        <li class="font-medium text-semibold text-dark text-lg pt-2">please contact me on the following
+                        <li class="font-medium text-base text-slate-500 dark:text-slate-300">Date of birth : 19 maret
+                            2000</li>
+                        <li class="font-medium text-base text-slate-500 dark:text-slate-300">email :
+                            vieri15bachtiar@gmail.com</li>
+                        <li class="font-medium text-semibold text-dark text-lg pt-2 dark:text-slate-800">please contact
+                            me on the following
                             social
                             media: </li>
                     </ul>
@@ -124,7 +138,8 @@
                     <div class="flex items-center mt-3 lg:pb-5 lg:shadow-xl  ">
                         <!-- Linkedin -->
                         <a href="https://www.linkedin.com/in/vieri-reynaldi-949193235/" target="_blank"
-                            class="w-9 h-9 mr-6 rounded-full flex justify-center items-center border border-primary text-primary hover:border-primary hover:bg-primary hover:text-white ">
+                            class="w-9 h-9 mr-6 rounded-full flex justify-center items-center border border-primary text-primary hover:border-primary hover:bg-primary hover:text-white 
+                            dark:border-dark dark:text-dark dark:hover:border-dark dark:hover:bg-dark dark:hover:text-white">
                             <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <title>LinkedIn</title>
@@ -135,7 +150,8 @@
                         </a>
                         <!-- Instagram -->
                         <a href="https://www.Instagram.com/vieribachtiar" target="_blank"
-                            class="w-9 h-9 mr-6 rounded-full flex justify-center items-center border border-primary text-primary hover:border-primary hover:bg-primary hover:text-white">
+                            class="w-9 h-9 mr-6 rounded-full flex justify-center items-center border border-primary text-primary hover:border-primary hover:bg-primary hover:text-white
+                            dark:border-dark dark:text-dark dark:hover:border-dark dark:hover:bg-dark dark:hover:text-white">
                             <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <title>Instagram</title>
@@ -146,7 +162,8 @@
                         </a>
                         <!-- Whatsapp -->
                         <a href="https://wa.me/628881075210" target="_blank"
-                            class="w-9 h-9 mr-6 rounded-full flex justify-center items-center border border-primary text-primary hover:border-primary hover:bg-primary hover:text-white">
+                            class="w-9 h-9 mr-6 rounded-full flex justify-center items-center border border-primary text-primary hover:border-primary hover:bg-primary hover:text-white
+                            dark:border-dark dark:text-dark dark:hover:border-dark dark:hover:bg-dark dark:hover:text-white">
                             <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <title>WhatsApp</title>
@@ -163,7 +180,7 @@
     <!--about section end-->
 
     <!--portfolio section start-->
-    <section id="portfolio" class="pt-36 pb-16 bg-slate-200">
+    <section id="portfolio" class="pt-36 pb-16 bg-slate-200 dark:bg-slate-400">
         <div class="w-full px-4 ">
             <div class="max-w-xl mx-auto text-center mb-16">
                 <h4 class="font-semibold text-lg text-primary mb-2 uppercase">Portfolio</h4>
@@ -179,7 +196,7 @@
                 <a href="https://cukuy-app.vercel.app/" target="_blank">
                     <div class="rounded-md shadow-md overflow-hidden">
                         <img src="dist/img/1.png" width="w-full">
-                        <h3 class="font-semibold text-cl text dark mt-5 px-4">cukuy app</h3>
+                        <h3 class="font-semibold text-xl text dark mt-5 px-4">cukuy app</h3>
                         <p class="font-medium text-base text-slate-700  px-4 ">design website with figma and created
                             with
                             tailwind
@@ -192,7 +209,7 @@
                 <a href="https://drive.google.com/drive/folders/1SOquI7Zxn5JeaFYswlfwsPAu3xDyK-vY?usp=sharing">
                     <div class="rounded-md shadow-md overflow-hidden  ">
                         <img src="dist/img/2.png" width="w-full" target="_blank">
-                        <h3 class="font-semibold text-cl text dark mt-5  px-4">typing game</h3>
+                        <h3 class="font-semibold text-xl text dark mt-5  px-4">typing game</h3>
                         <p class="font-medium text-base text-slate-700  px-4 pb-5">a program created to practice
                             typing.
                             made
@@ -210,73 +227,84 @@
     <!--portfolio section end-->
 
     <!--skills section start-->
-    <section id="skills" class="pt-36 pb-32 bg-gradient-to-b from-slate-200 to-slate-50 border-t-2 border-slate-300"">
-        <div class=" container ">
-        <div class=" w-full px-4 ">
+    <section id="skills"
+        class="pt-36 pb-32 bg-gradient-to-b from-slate-200 dark:from-slate-400 to-slate-50 dark:to-slate-300 border-t-2 border-slate-300"">
+
+<div class=" flex flex-warp w-full justify-center">
+
         <div class=" max-w-xl mx-auto text-center mb-16">
-        <h4 class="font-semibold text-lg text-primary mb-2 uppercase">Skills</h4>
-        <h2 class="font-bold text-slate-800 text-3xl mb-4">What i can do?</h2>
-        <p class="font-medium text-md text-slate-700">picture below is from unsplash so it might not match
-            with the content
-
-            </div>
-            </div>
-        <div class="flex flex-wrap lg:pl-20 ">
-            <div class="w-full px-4 lg:scale-90 lg:hover:scale-105 lg:hover:duration-500 md:w-1/2 lg:w-1/3 ">
-                <div
-                    class="bg-white rounded-xl shadow-md lg:shadow-dark lg:hover:shadow-lg lg:hover:shadow-primary overflow-hidden mb-10">
-                    <img src="https://source.unsplash.com/260x200?web+website" alt="html" class="w-full">
-                    <div class="py-8 px-6">
-                        <a href="#" class="block mb-3 font-semibold text-xl truncate">
-                            <h3>know how to build a web</h3>
-                        </a>
-                        <p class="font-medium text-base text-slate-700 mb-4">Lorem ipsum dolor, sit amet consectetur
-                            adipisicing elit. Dolorum, labore?</p>
-                        <a href="#"
-                            class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg lg:hover:bg-opacity-20 lg:hover:text-primary">click
-                            here</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="w-full px-4 lg:scale-90 lg:hover:scale-105 lg:hover:duration-500 md:w-1/2 lg:w-1/3">
-                <div
-                    class="bg-white rounded-xl shadow-md lg:shadow-dark lg:hover:shadow-lg lg:hover:shadow-primary overflow-hidden mb-10">
-                    <img src="https://source.unsplash.com/260x200?web+html+css" alt="html" class="w-full">
-                    <div class="py-8 px-6">
-                        <a href="#" class="block mb-3 font-semibold text-xl truncate">
-                            <h3>know how to design a web</h3>
-                        </a>
-                        <p class="font-medium text-base text-slate-700 mb-4">Lorem ipsum dolor, sit amet consectetur
-                            adipisicing elit. Dolorum, labore?</p>
-                        <a href="#"
-                            class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg lg:hover:bg-opacity-20 lg:hover:text-primary">click
-                            here</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="w-full px-4 lg:scale-90 lg:hover:scale-105 lg:hover:duration-500 md:w-1/2 lg:w-1/3">
-                <div
-                    class="bg-white rounded-xl shadow-md lg:shadow-dark lg:hover:shadow-lg lg:hover:shadow-primary overflow-hidden mb-10">
-                    <img src="https://source.unsplash.com/260x200?database" alt="html" class="w-full">
-                    <div class="py-8 px-6">
-                        <a href="#" class="block mb-3 font-semibold text-xl truncate">
-                            <h3>know how to build a database</h3>
-                        </a>
-                        <p class="font-medium text-base text-slate-700 mb-4">Lorem ipsum dolor, sit amet consectetur
-                            adipisicing elit. Dolorum, labore?</p>
-                        <a href="#"
-                            class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg lg:hover:bg-opacity-20 lg:hover:text-primary">click
-                            here</a>
-                    </div>
-                </div>
-            </div>
-
-
+            <h4 class="font-semibold text-lg text-primary mb-2 uppercase">Skills</h4>
+            <h2 class="font-bold text-slate-800 text-3xl mb-4">What i can do?</h2>
+            <p class="font-medium text-md text-slate-700 px-8">picture below is from unsplash so it might not match
+                with the content
 
         </div>
+
         </div>
+
+        <div
+            class="flex flex-nowrap overflow-y-auto lg:overflow-clip lg:flex-wrap md:justify-center   pt-10 lg:pt-3 lg:py-5">
+
+
+            <div
+                class="w-full px-4 lg:scale-90 scroll-ml-6 lg:hover:scale-105 lg:hover:duration-500 md:w-1/3 lg:w-1/4  ">
+                <div
+                    class="bg-white rounded-xl shadow-md justify-center items-center lg:shadow-dark lg:hover:shadow-lg lg:hover:shadow-primary overflow-hidden mb-10">
+                    <img class="h-60 lg:h-60 overflow-hidden w-80 lg:w-full"
+                        src="https://source.unsplash.com/260x200?web+websiteg">
+                    <div class="py-8 px-6 h-50 w-80 ">
+                        <a href="/page/catalog/index.html" class="block mb-3 font-semibold text-xl text-primary ">
+                            <h3>know to build a web</h3>
+                        </a>
+                        <p class="font-medium text-base text-slate-700 mb-4">Lorem ipsum dolor, sit amet consectetur
+                            adipisicing elit. Dolorum, labore?</p>
+                        <a href="/page/catalog/index.html"
+                            class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg lg:hover:bg-opacity-20 lg:hover:text-primary">see
+                            more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="w-full px-4 lg:scale-90 snap-mandatory scroll-ml-6 lg:hover:scale-105 lg:hover:duration-500  md:w-1/3 lg:w-1/4">
+                <div
+                    class="bg-white rounded-xl shadow-md justify-center items-center lg:shadow-dark lg:hover:shadow-lg lg:hover:shadow-primary overflow-hidden mb-10">
+                    <img class="h-60  lg:h-60 overflow-hidden w-80 lg:w-full "
+                        src="https://source.unsplash.com/260x200?design">
+                    <div class="py-8 px-6 h-50 w-80 ">
+                        <a href="/page/catalog/index.html" class="block mb-3 font-semibold text-xl text-primary ">
+                            <h3>know to design a web</h3>
+                        </a>
+                        <p class="font-medium text-base text-slate-700 mb-4">Lorem ipsum dolor, sit amet consectetur
+                            adipisicing elit. Dolorum, labore?</p>
+                        <a href="/page/catalog/index.html"
+                            class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg lg:hover:bg-opacity-20 lg:hover:text-primary">see
+                            more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="w-full px-4 lg:scale-90 scroll-ml-6 lg:hover:scale-105 lg:hover:duration-500  md:w-1/3 lg:w-1/4 ">
+                <div
+                    class="bg-white rounded-xl shadow-md justify-center items-center lg:shadow-dark lg:hover:shadow-lg lg:hover:shadow-primary overflow-hidden mb-10">
+                    <img class="h-60 lg:h-60 overflow-hidden w-80 lg:w-full"
+                        src="https://source.unsplash.com/260x200?database">
+                    <div class="py-8 px-6 h-50 w-80">
+                        <a href="/page/catalog/index.html" class="block mb-3 font-semibold text-xl text-primary ">
+                            <h3>know to build a database</h3>
+                        </a>
+                        <p class="font-medium text-base text-slate-700 mb-4">Lorem ipsum dolor, sit amet consectetur
+                            adipisicing elit. Dolorum, labore?</p>
+                        <a href="/page/catalog/index.html"
+                            class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg lg:hover:bg-opacity-20 lg:hover:text-primary">see
+                            more</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
     </section>
     <!--skills section end-->
 
@@ -331,73 +359,75 @@
     </section>
     <!--language section end-->
 
+    <!--coba-->
+
     <!--footer section start-->
     <footer class="bg-slate-500 pt-12 pb-5 px-4">
-        <div class="container">
-            <div class="flex flex-wrap lg:pl-20">
-                <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3 lg:w-1/3 text-xl">
-                    <h2 class="font-bold text-4xl text-white mb-5">Vieri Reynaldi</h2>
-                    <h3 class="font-bold text-2xl mb-2">Contact</h3>
-                    <p>vieri15bachtiar@gmail.com</p>
-                    <p>+62-8881075210</p>
-                    <p>Cipinang Besar Utara</p>
-                    <p>Jakarta Timur</p>
-                </div>
-                <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3 lg:w-1/3">
-                    <h2 class="font-semibold text-2xl text-white mb-5">
-                        Document
-                        </h3>
-                        <ul>
-                            <li>
-                                <a href="https://drive.google.com/file/d/1idrb5-jYFpRJx7m1Kp1qUS6FgXmKhN3-/view?usp=sharing"
-                                    target="_blank"
-                                    class="inline-block text-xl hover:text-primary lg:hover:text-4xl mb-3">CV</a>
-                            </li>
-                            <li>
-                                <a href="https://drive.google.com/file/d/1Jbcd8aIzmdROFOADmajtw6fFPMHCuh1X/view?usp=sharing"
-                                    target="_blank"
-                                    class="inline-block text-xl hover:text-primary lg:hover:text-4xl mb-3">Academic
-                                    transcript</a>
-                            </li>
-                            <li>
-                                <a href="https://drive.google.com/drive/folders/1SOquI7Zxn5JeaFYswlfwsPAu3xDyK-vY?usp=sharing"
-                                    target="_blank"
-                                    class="inline-block text-xl hover:text-primary lg:hover:text-4xl mb-3">portfolio</a>
 
-                        </ul>
-                </div>
-                <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3 lg:w-1/3">
-                    <h2 class="font-semibold text-2xl text-white mb-5">
-                        Link
-                        </h3>
-                        <ul>
-                            <li>
-                                <a href="#home"
-                                    class="inline-block text-xl hover:text-primary lg:hover:text-4xl mb-3">home</a>
-                            </li>
-                            <li>
-                                <a href="#about"
-                                    class="inline-block text-xl hover:text-primary lg:hover:text-4xl mb-3">about</a>
-                            </li>
-                            <li>
-                                <a href="#portfolio"
-                                    class="inline-block text-xl hover:text-primary lg:hover:text-4xl mb-3">portfolio</a>
-                            </li>
-                            <li>
-                                <a href="#skills"
-                                    class="inline-block text-xl hover:text-primary lg:hover:text-4xl ">skills</a>
-                            </li>
-                        </ul>
-                </div>
-
-
+        <div class="flex flex-wrap lg:pl-20">
+            <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-[40%] lg:w-[40%] text-xl">
+                <h2 class="font-bold text-4xl text-white mb-5">Vieri Reynaldi</h2>
+                <h3 class="font-bold text-2xl mb-2">Contact</h3>
+                <p>vieri15bachtiar@gmail.com</p>
+                <p>+62-8881075210</p>
+                <p>Cipinang Besar Utara</p>
+                <p>Jakarta Timur</p>
             </div>
+            <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-[40%] lg:w-[30%]">
+                <h2 class="font-semibold text-2xl text-white mb-5">
+                    Document
+                    </h3>
+                    <ul>
+                        <li>
+                            <a href="https://drive.google.com/file/d/1idrb5-jYFpRJx7m1Kp1qUS6FgXmKhN3-/view?usp=sharing"
+                                target="_blank"
+                                class="inline-block text-xl hover:text-primary lg:hover:text-4xl mb-3">CV</a>
+                        </li>
+                        <li>
+                            <a href="https://drive.google.com/file/d/1Jbcd8aIzmdROFOADmajtw6fFPMHCuh1X/view?usp=sharing"
+                                target="_blank"
+                                class="inline-block text-xl hover:text-primary lg:hover:text-4xl mb-3">Academic
+                                transcript</a>
+                        </li>
+                        <li>
+                            <a href="https://drive.google.com/drive/folders/1SOquI7Zxn5JeaFYswlfwsPAu3xDyK-vY?usp=sharing"
+                                target="_blank"
+                                class="inline-block text-xl hover:text-primary lg:hover:text-4xl mb-3">portfolio</a>
+
+                    </ul>
+            </div>
+            <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-[20%] lg:w-[30%]">
+                <h2 class="font-semibold text-2xl text-white mb-5">
+                    Link
+                    </h3>
+                    <ul>
+                        <li>
+                            <a href="#home"
+                                class="inline-block text-xl hover:text-primary lg:hover:text-4xl mb-3">home</a>
+                        </li>
+                        <li>
+                            <a href="#about"
+                                class="inline-block text-xl hover:text-primary lg:hover:text-4xl mb-3">about</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio"
+                                class="inline-block text-xl hover:text-primary lg:hover:text-4xl mb-3">portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#skills"
+                                class="inline-block text-xl hover:text-primary lg:hover:text-4xl ">skills</a>
+                        </li>
+                    </ul>
+            </div>
+
+
         </div>
+
         <div class="w-full borter-t ">
             <div class="flex items-center mt-3 lg:pb-5  justify-center">
                 <!-- Linkedin -->
                 <a href="https://www.linkedin.com/in/vieri-reynaldi-949193235/" target="_blank"
-                    class="w-9 h-9 mr-6 rounded-full flex justify-center items-center border border-slate-200 text-slate-200 hover:border-none hover:scale-125 hover:-translate-y-5 hover:text-white ">
+                    class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-200 text-slate-200 hover:border-none hover:scale-125 hover:-translate-y-5 hover:text-white ">
                     <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24"
                         xmlns="http://www.w3.org/2000/svg">
                         <title>LinkedIn</title>
@@ -408,7 +438,7 @@
                 </a>
                 <!-- Instagram -->
                 <a href="https://www.Instagram.com/vieribachtiar" target="_blank"
-                    class="w-9 h-9 mr-6 rounded-full flex justify-center items-center border border-slate-200 text-slate-200 hover:border-none hover:scale-125 hover:-translate-y-5 hover:text-white">
+                    class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-200 text-slate-200 hover:border-none hover:scale-125 hover:-translate-y-5 hover:text-white">
                     <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24"
                         xmlns="http://www.w3.org/2000/svg">
                         <title>Instagram</title>
@@ -418,7 +448,7 @@
                     </svg>
                 </a>
                 <!-- Whatsapp -->
-                <a href="https://wa.me/628881075210" target="_blank" class="w-9 h-9 mr-6 rounded-full flex justify-center items-center border border-slate-200 text-slate-200 hover:border-none hover:scale-125
+                <a href="https://wa.me/628881075210" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-200 text-slate-200 hover:border-none hover:scale-125
                         hover:-translate-y-5 hover:text-white">
                     <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24"
                         xmlns="http://www.w3.org/2000/svg">
@@ -428,6 +458,16 @@
                         </path>
                     </svg>
                 </a>
+            </div>
+            <div class="flex justify-center items-center text-slate-400 pt-3 ">
+                <div class="bg-stone-300 dark:bg-stone-700 px-3 py-2 rounded-lg">
+                    <div class="px-3 rounded-xl  dark:bg-stone-700 dark:text-stone-500 bg-stone-700 text-stone-300">
+                        <button id="triger">light mode</button>
+                    </div>
+                    <div class="px-3  rounded-xl  dark:bg-stone-300 dark:text-stone-700 bg-stone-300 text-stone-500">
+                        <button id="triger2">night mode</button>
+                    </div>
+                </div>
             </div>
             <p class="flex justify-center items-center text-slate-400 sm:pt-3">created using tailwiind</p>
         </div>

@@ -17,3 +17,13 @@ window.onscroll = function () {
         header.classList.remove('navbar-fixed');
     }
 };
+
+const htmltype = document.querySelector('#htmltype'); 
+const triger = document.querySelector('#triger');
+const triger2 = document.querySelector('#triger2');
+triger.addEventListener('click', function () {
+    htmltype.classList.toggle('dark');
+});
+triger2.addEventListener('click', function () {
+    htmltype.classList.toggle('dark');
+});
