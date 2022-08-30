@@ -54,3 +54,7 @@ body {
         background-position: right;
     }
 }
+
+.tengah-garis {
+    @apply w-[5px] h-[300px] md:h-[220px] block bg-primary transition duration-300 ease-in-out
+}
