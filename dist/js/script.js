@@ -31,66 +31,68 @@ triger2.addEventListener('click', function () {
 const muncul1 = document.querySelector('#muncul1');
 const munculitem1 = document.querySelector('#munculitem1');
 muncul1.addEventListener('mouseenter', function () {
-    munculitem1.classList.remove('invisible');
-    munculitem1.classList.remove('-rotate-[150deg]');
-    munculitem1.classList.remove('-translate-x-20');
-    munculitem1.classList.remove('blur-sm');
+    munculitem1.classList.remove('invisible', '-rotate-[150deg]', '-translate-x-20', 'blur-sm');
+
 
 });
 muncul1.addEventListener('mouseleave', function () {
-    munculitem1.classList.add('invisible');
-    munculitem1.classList.add('-rotate-[150deg]');
-    munculitem1.classList.add('-translate-x-20');
-    munculitem1.classList.add('blur-sm');
-
+    munculitem1.classList.add('invisible', '-rotate-[150deg]', '-translate-x-20', 'blur-sm');
 });
 
 const muncul2 = document.querySelector('#muncul2');
 const munculitem2 = document.querySelector('#munculitem2');
 muncul2.addEventListener('mouseenter', function () {
-    munculitem2.classList.remove('invisible');
-    munculitem2.classList.remove('-rotate-[150deg]');
-    munculitem2.classList.remove('-translate-x-20');
-    munculitem2.classList.remove('blur-sm');
+    munculitem2.classList.remove('invisible', '-rotate-[150deg]', '-translate-x-20', 'blur-sm');
 
 });
 muncul2.addEventListener('mouseleave', function () {
-    munculitem2.classList.add('invisible');
-    munculitem2.classList.add('-rotate-[150deg]');
-    munculitem2.classList.add('-translate-x-20');
-    munculitem2.classList.add('blur-sm');
+    munculitem2.classList.add('invisible', '-rotate-[150deg]', '-translate-x-20', 'blur-sm');
 });
 
 const muncul3 = document.querySelector('#muncul3');
 const munculitem3 = document.querySelector('#munculitem3');
 muncul3.addEventListener('mouseenter', function () {
-    munculitem3.classList.remove('invisible');
-    munculitem3.classList.remove('-rotate-[150deg]');
-    munculitem3.classList.remove('-translate-x-20');
-    munculitem3.classList.remove('blur-sm');
+    munculitem3.classList.remove('invisible', '-rotate-[150deg]', '-translate-x-20', 'blur-sm');
 
 });
 muncul3.addEventListener('mouseleave', function () {
-    munculitem3.classList.add('invisible');
-    munculitem3.classList.add('-rotate-[150deg]');
-    munculitem3.classList.add('-translate-x-20');
-    munculitem3.classList.add('blur-sm');
+    munculitem3.classList.add('invisible', '-rotate-[150deg]', '-translate-x-20', 'blur-sm');
 
 });
 
 const muncul4 = document.querySelector('#muncul4');
 const munculitem4 = document.querySelector('#munculitem4');
 muncul4.addEventListener('mouseenter', function () {
-    munculitem4.classList.remove('invisible');
-    munculitem4.classList.remove('-rotate-[150deg]');
-    munculitem4.classList.remove('-translate-x-20');
-    munculitem4.classList.remove('blur-sm');
+    munculitem4.classList.remove('invisible', '-rotate-[150deg]', '-translate-x-20', 'blur-sm');
 
 });
 muncul4.addEventListener('mouseleave', function () {
-    munculitem4.classList.add('invisible');
-    munculitem4.classList.add('-rotate-[150deg]');
-    munculitem4.classList.add('-translate-x-20');
-    munculitem4.classList.add('blur-sm');
+    munculitem4.classList.add('invisible', '-rotate-[150deg]', '-translate-x-20', 'blur-sm');
 
+});
+
+const data1 = document.querySelector('#data1');
+const data2 = document.querySelector('#data2');
+const arrowleft = document.querySelector('#arrowleft');
+const arrowright = document.querySelector('#arrowright');
+
+arrowleft.addEventListener('click', function () {
+    arrowleft.classList.remove('lg:visible');
+    arrowleft.classList.add('lg:invisible', 'lg:translate-x-72', 'lg:scale-50');
+    arrowright.classList.remove('lg:invisible', 'lg:-translate-x-72', 'lg:scale-50');
+    arrowright.classList.add('lg:visible');
+    data1.classList.toggle('lg:invisible');
+    data1.classList.remove('lg:-translate-x-72', 'lg:scale-50');
+    data2.classList.toggle('lg:invisible');
+    data2.classList.add('lg:translate-x-72', 'lg:scale-50');
+});
+arrowright.addEventListener('click', function () {
+    arrowleft.classList.add('lg:visible');
+    arrowleft.classList.remove('lg:invisible', 'lg:translate-x-72', 'lg:scale-50');
+    arrowright.classList.add('lg:invisible', 'lg:-translate-x-72', 'lg:scale-50');
+    arrowright.classList.remove('lg:visible');
+    data1.classList.toggle('lg:invisible');
+    data1.classList.add('lg:-translate-x-72', 'lg:scale-50');
+    data2.classList.toggle('lg:invisible');
+    data2.classList.remove('lg:translate-x-72', 'lg:scale-50');
 });
