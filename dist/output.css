@@ -1048,10 +1048,6 @@ video {
   fill: #4ade80;
 }
 
-.fill-red-500 {
-  fill: #ef4444;
-}
-
 .fill-current {
   fill: currentColor;
 }
